@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""Date custom scalar type"""
+scalar Date
+
+type Mutation {
+  DataBasePing: OutPing!
+}
+
+type OutPing {
+  fecha: Date
+}
+
+type Query {
+  Ping: String!
+  WhoIsThisPokemon: String!
+}
