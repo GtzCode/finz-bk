@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Finz (DataBase)</h3>
+  <h3 align="center">Finz (Backend)</h3>
 </div>
 <div id="Social" align="center">
       <a href="https://github.com/GtzCode" title="HTML link image example">
@@ -29,7 +29,7 @@ Finz is a web application that helps with personal spending finances. Record you
 ![Tailwind][Tailwind]
 
 ## Architecture
-![architecture drawio](https://github.com/GtzCode/GtzCode/assets/47282745/eaa67549-2c3e-445a-829b-87f5cae00b84)
+![architecture drawio](https://github.com/GtzCode/GtzCode/assets/47282745/6b62c1e4-4a34-4df4-89d5-bab8045d219c)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Relational Database Schema
