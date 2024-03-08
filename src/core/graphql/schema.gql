@@ -5,15 +5,60 @@
 """Date custom scalar type"""
 scalar Date
 
-type Mutation {
-  DataBasePing: OutPing!
+input InpCategoria {
+  categoria: String
+  clave: String
 }
 
-type OutPing {
+input InpGasto {
+  categoria: String
+  clave: String
+  gasto: String
+  necesario: Boolean
+}
+
+input InpPago {
+  control: Float
+  detalle: String
   fecha: Date
+  gasto: String
+  importe: Float
+}
+
+type Mutation {
+  deleteCategorias(inpCategoria: InpCategoria!): Boolean!
+  deleteGastos(inpGasto: InpGasto!): Boolean!
+  deletePagos(inpPago: InpPago!): Boolean!
+  postCategorias(inpCategoria: InpCategoria!): Boolean!
+  postGastos(inpGasto: InpGasto!): Boolean!
+  postPagos(inpPago: InpPago!): Boolean!
+  putCategorias(inpCategoria: InpCategoria!): Boolean!
+  putGastos(inpGasto: InpGasto!): Boolean!
+  putPagos(inpPago: InpPago!): Boolean!
+}
+
+type OutCategoria {
+  categoria: String
+  clave: String
+}
+
+type OutGasto {
+  categoria: String
+  clave: String
+  gasto: String
+  necesario: Boolean
+}
+
+type OutPago {
+  control: Float
+  detalle: String
+  fecha: Date
+  gasto: String
+  importe: Float
 }
 
 type Query {
-  Ping: String!
-  WhoIsThisPokemon: String!
+  getOneCategorias(categoria: String!): OutCategoria!
+  getOneGastos(gasto: String!): OutGasto!
+  getOnePagos(pago: Float!): OutPago!
 }

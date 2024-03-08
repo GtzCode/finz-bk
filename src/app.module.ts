@@ -1,10 +1,9 @@
 import { Module } from '@nestjs/common';
-
 import { DatabasesModule } from './config/databases/databases.module';
-import { PingModule } from './modules/ping/ping.module';
 import { ApolloModule } from './config/graphql/Apollo.module';
 import { StaticModule } from './config/static/static.module';
 import { DateScalar } from './core/graphql/scalartypes/DateScalar';
+import { EgresosModule } from './modules/egresos/egresos.module';
 
 
 
@@ -14,7 +13,9 @@ import { DateScalar } from './core/graphql/scalartypes/DateScalar';
         ApolloModule,
         StaticModule,
 
-        PingModule
+        EgresosModule,
+
+
 
     ],
     providers: [DateScalar],
