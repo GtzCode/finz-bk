@@ -26,10 +26,10 @@ Finz is a web application that helps with personal spending finances. Record you
 ![ApolloGraphql][ApolloClient]
 ![ReactJs][ReactJs]
 ![ReactHookForm][ReactHookForm]
-![Bootstrap][Bootstrap]
+![Tailwind][Tailwind]
 
 ## Architecture
-![Back drawio](https://github.com/GtzCode/GtzCode/assets/47282745/4544ec81-c8f7-4719-ac6b-8709be8386f0)
+![architecture drawio](https://github.com/GtzCode/GtzCode/assets/47282745/6b62c1e4-4a34-4df4-89d5-bab8045d219c)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Relational Database Schema
@@ -47,5 +47,5 @@ Finz is a web application that helps with personal spending finances. Record you
 [ReactJs]:https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=000000
 [Tailwind]:https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=ffffff
 [ReactHookForm]:https://img.shields.io/badge/React_hook_form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=ffffff
-[Bootstrap]:https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=ffffff
+
 
